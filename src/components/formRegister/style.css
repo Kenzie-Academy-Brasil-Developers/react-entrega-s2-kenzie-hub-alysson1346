@@ -1,0 +1,123 @@
+.Form-Register {
+  margin-top: 50px;
+  margin-bottom: 34px;
+}
+.header-register {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.btn-voltar-register {
+  background: #212529;
+  border-radius: 4px;
+  width: 79.54px;
+  height: 25.58px;
+  border-style: none;
+}
+.btn-voltar-register a {
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif, Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9.59437px;
+}
+.formRegister {
+  display: flex;
+  flex-direction: column;
+  background: #212529;
+  box-shadow: 0px 3.20867px 32.0867px -8.02168px rgba(0, 0, 0, 0.25);
+  border-radius: 3.20867px;
+  width: 90vw;
+  margin-top: 20px;
+}
+.RegisterLabel {
+  font-family: sans-serif, inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.772px;
+  color: #f8f9fa;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.RegisterInput {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  height: 38.5px;
+  background-color: #343b41;
+  color: #f8f9fa;
+  font-family: sans-serif, inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.0293px;
+  border: 1px solid #f8f9fa;
+  border-radius: 3.20867px;
+}
+.RegisterBtn {
+  margin-top: 20px;
+  background: #ff577f;
+  border: 1.2182px solid #ff577f;
+  box-sizing: border-box;
+  border-radius: 4.06066px;
+  color: #fff;
+  height: 38.5px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 34px;
+}
+.header-register-criar h2 {
+  font-family: sans-serif, Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f8f9fa;
+}
+.header-register-criar p {
+  font-family: sans-serif, Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #868e96;
+}
+
+@media (min-width: 1024px) {
+  .formRegister {
+    width: 28vw;
+  }
+  .RegisterBtn {
+    height: 48px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .RegisterLabel {
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .RegisterInput {
+    height: 48px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .register-logo {
+    width: 122px;
+  }
+  .btn-voltar-register {
+    width: 67.49px;
+    height: 32px;
+  }
+  .btn-voltar-register a {
+    font-size: 12px;
+  }
+  .header-register {
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+  }
+}

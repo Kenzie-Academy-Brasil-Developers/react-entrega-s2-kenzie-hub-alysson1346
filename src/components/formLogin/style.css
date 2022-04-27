@@ -1,0 +1,104 @@
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  background: #212529;
+  box-shadow: 0px 3.20867px 32.0867px -8.02168px rgba(0, 0, 0, 0.25);
+  border-radius: 3.20867px;
+  width: 90vw;
+  margin-top: 20px;
+}
+.formLogin p {
+  margin-top: 34px !important;
+  font-family: sans-serif, inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.439px;
+  line-height: 22px;
+}
+.formBtnLogin {
+  margin-top: 20px;
+  background: #ff577f;
+  border: 1.2182px solid #ff577f;
+  box-sizing: border-box;
+  border-radius: 4.06066px;
+  color: #fff;
+  height: 38.5px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.formBtnCadastro {
+  background: #868e96;
+  border: 1.2182px solid #868e96;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #fff;
+  height: 38.5px;
+  margin-bottom: 34px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.formBtnCadastro a {
+  text-decoration: none;
+  color: #fff;
+}
+.formLogo {
+  width: 101px;
+  height: 14px;
+}
+.formLabel {
+  font-family: sans-serif, inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.772px;
+  color: #f8f9fa;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.formInput {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  height: 38.5px;
+  background-color: #343b41;
+  color: #f8f9fa;
+  font-family: sans-serif, inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.0293px;
+  border: 1px solid #f8f9fa;
+  border-radius: 3.20867px;
+}
+.conta {
+  font-family: sans-serif, inter !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 9.7px !important;
+  color: #868e96;
+}
+@media (min-width: 1024px) {
+  .formLogin {
+    width: 28vw;
+  }
+  .formBtnLogin {
+    height: 48px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .formLabel {
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .formBtnCadastro {
+    height: 48px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .formInput {
+    height: 48px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+}

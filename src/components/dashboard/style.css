@@ -1,0 +1,276 @@
+.layout-dashboard {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header-dashboard-top {
+  margin-top: 26px;
+  padding-bottom: 33px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.linha {
+  border-bottom: 1px solid #212529;
+}
+.header-dashboard button {
+  height: 30px;
+}
+.modal-cadastroTech {
+  background-color: #212529;
+  width: 90vw;
+}
+.header-modal {
+  display: flex;
+  flex-direction: row;
+  background-color: #343b41;
+  justify-content: space-between;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+.header-modal p {
+  font-family: sans-serif, Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11.2304px;
+  line-height: 19px;
+  color: #f8f9fa;
+}
+.btn-modal {
+  background-color: #21252900;
+  border-style: none;
+  color: #868e96;
+  font-size: 15px;
+}
+.form-modal-tech {
+  display: flex;
+  flex-direction: column;
+}
+.modal-label {
+  display: flex;
+  margin-left: 3vw;
+  font-family: sans-serif, Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.772px;
+  color: #f8f9fa;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.inputs-modal {
+  background: #343b41;
+  height: 38.5px;
+  border: 0.9772px solid #f8f9fa;
+  box-sizing: border-box;
+  border-radius: 3.20867px;
+  font-family: sans-serif, Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.0293px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  color: #f8f9fa;
+}
+.btn-modal-tech {
+  margin-top: 16.21px;
+  margin-bottom: 15.67px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  height: 38.5px;
+  background: #ff577f;
+  border: 1.2182px solid #ff577f;
+  box-sizing: border-box;
+  border-radius: 4.06066px;
+  font-family: sans-serif, Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.8347px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.card-tech {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.dashboard-btn-voltar {
+  color: #fff;
+  background: #212529;
+  border-radius: 4px;
+  width: 79.54px;
+  height: 25.58px;
+  padding: 0px 16.2426px;
+  font-family: sans-serif, inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9.59437px;
+  border-style: none;
+}
+.apresentacao {
+  margin-top: 35.5px;
+  font-family: sans-serif, Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #f8f9fa;
+  display: flex;
+  margin-left: 5vw;
+}
+.modulo-user {
+  margin-bottom: 35.5px;
+  font-family: sans-serif, Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #868e96;
+  display: flex;
+  margin-left: 5vw;
+}
+.tecnologias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.tecnologias p {
+  font-family: sans-serif, Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #f8f9fa;
+}
+.btn-add-tech {
+  background: #212529;
+  border-radius: 4px;
+  border-style: none;
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  font-size: 19px;
+}
+.btn-tech-list {
+  background: #121214;
+  border-radius: 4.06066px;
+  padding: 12.182px;
+  border-style: none;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+.title-do-btn {
+  font-family: sans-serif, Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.2123px;
+  color: #f8f9fa;
+}
+.status-do-btn {
+  font-family: sans-serif, Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.182px;
+  color: #868e96;
+}
+.card-de-tech {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background: #121214;
+  border-radius: 4px;
+  width: 100vw;
+}
+.body-tech {
+  border-radius: 4px;
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  gap: 16px;
+}
+.editar-btn {
+  background: #59323f;
+  border: 1.2182px solid #59323f;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: sans-serif, Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.7913px;
+  line-height: 21px;
+  color: #ffffff;
+  height: 38.5px;
+}
+
+.excluir-btn {
+  background: #868e96;
+  border: 1.2182px solid #868e96;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: sans-serif, Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.7913px;
+  line-height: 21px;
+  color: #ffffff;
+  height: 38.5px;
+}
+.btn-editar-tech {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 1024px) {
+  .header-dashboard-top {
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+  .welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    justify-content: space-between;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+  .apresentacao {
+    margin: 0;
+    font-size: 18px;
+  }
+  .modulo-user {
+    margin: 0;
+    font-size: 12px;
+  }
+  .tecnologias {
+    margin-top: 19px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+  .body-tech {
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+
+  .modal-cadastroTech {
+    width: 30vw;
+  }
+  .btn-tech-list {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+  }
+}

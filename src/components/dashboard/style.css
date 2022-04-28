@@ -233,7 +233,7 @@
   margin-bottom: 16px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
   .header-dashboard-top {
     margin-left: 20vw;
     margin-right: 20vw;

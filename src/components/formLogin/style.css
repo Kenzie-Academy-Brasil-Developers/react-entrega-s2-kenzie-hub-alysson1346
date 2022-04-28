@@ -78,7 +78,7 @@
   font-size: 9.7px !important;
   color: #868e96;
 }
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
   .formLogin {
     width: 28vw;
   }

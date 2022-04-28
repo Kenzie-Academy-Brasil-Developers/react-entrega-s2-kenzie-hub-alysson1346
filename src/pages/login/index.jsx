@@ -16,6 +16,7 @@ function Login({
       setAutenticathed={setAutenticathed}
       setNameUser={setNameUser}
       setModule={setModule}
+      setLista={setLista}
     />
   );
 }

@@ -48,6 +48,7 @@ function App() {
               setAutenticathed={setAutenticathed}
               setNameUser={setNameUser}
               setModule={setModule}
+              setLista={setLista}
             />
           </Route>
 

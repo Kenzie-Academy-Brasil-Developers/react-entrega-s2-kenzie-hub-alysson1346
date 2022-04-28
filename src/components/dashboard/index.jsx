@@ -14,14 +14,12 @@ function Dashboard({ nameUser, module, lista, setLista, setAutenticathed }) {
   const [idProduct, setIdProduct] = useState();
   const { register, handleSubmit } = useForm();
 
-  console.log(idProduct);
   const token = JSON.parse(localStorage.getItem("@kenziehub:token"));
   function detalhesModal(id) {
     setDetalhes(true);
   }
 
   function excluirTech(id) {
-    console.log(id);
     Api.delete(`/users/techs/${id}`, {
       headers: {
         Authorization: `Bearer ${token}`,

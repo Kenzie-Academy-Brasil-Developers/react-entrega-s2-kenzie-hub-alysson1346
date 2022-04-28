@@ -7,7 +7,7 @@ import { useHistory } from "react-router-dom";
 import Api from "../../services/api.js";
 import logo from "../../assets/img/Logo.svg";
 
-function FormLogin({ setAutenticathed, setNameUser, setModule }) {
+function FormLogin({ setAutenticathed, setNameUser, setModule, setLista }) {
   const formSchema = yup.object().shape({
     email: yup.string().email("E-mail inválido").required("Campo obrigatório"),
     password: yup.string().min(6, "Minimo de 6"),
@@ -22,7 +22,7 @@ function FormLogin({ setAutenticathed, setNameUser, setModule }) {
         const modulo = res.data.user.course_module;
         const tech = res.data.user.techs;
         const id = res.data.user.id;
-
+        setLista(tech);
         setNameUser(nome);
         setModule(modulo);
         setAutenticathed(true);
@@ -35,7 +35,6 @@ function FormLogin({ setAutenticathed, setNameUser, setModule }) {
 
   const formLogin = (data) => {
     logar(data);
-    /* return history.push("/home"); */
   };
 
   const {
